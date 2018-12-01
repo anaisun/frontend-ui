@@ -1,0 +1,51 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#header {
+    text-align: center;
+    padding: 60px 0;
+}
+#header a {
+    font-size: 40px;
+    color:#000;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul.menus {
+    float: left;
+}
+#nav ul.icons {
+    float: right;
+}
+#main .featured header h2 {
+    text-align: center;
+    padding: 50px 40px 0;
+}
+#main .featured header a img {
+    width:100%;
+}
+
+#footer {
+    display: flex; /*부모태그 속성에 flax*/
+}
+/*
+#footer .contact, #footer .info {
+    flex:1; 
+}*/
+
+#footer .contact {
+    flex:1;
+}
+#footer .info {
+    flex:2;
+}

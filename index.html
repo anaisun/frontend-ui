@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML_tag_elements</title>
+</head>
+<body>
+    <p>안녕하세요!</p>
+    <img src="" alt="대체텍스트/스크린리더지원">
+    <h1>header1</h1>
+    <h6>header6</h6>
+    <table></table>
+
+    <div id=""></div>
+    <div class=""></div>
+
+    <!-- Semantic Tag -->
+    <nav id="menu">
+        <ul>
+            <li>menu1</li>
+        </ul>
+    </nav>
+
+    <header></header>
+    <footer></footer>
+    <section></section>
+    <article></article>
+    <aside></aside>
+
+    <!-- 태그 구조 쉽게 잡기 -->
+    <nav id="menu">
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+        </ul>
+    </nav>
+
+    <!-- nav>ul>li*3 -->
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <!-- nav#menu>ul>li*3 -->
+    <nav id="menu">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <!-- nav#menu>ul>li{menu}*3 -->
+    <nav id="menu">
+        <ul>
+            <li>menu</li>
+            <li>menu</li>
+            <li>menu</li>
+        </ul>
+    </nav>
+
+    <!-- nav#menu>ul>li{menu$}*3 -->
+    <nav id="menu">
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+        </ul>
+    </nav>
+
+    
+
+</body>
+</html>
